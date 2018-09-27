@@ -27,6 +27,9 @@
         this.$store.state.products.forEach( product => {
           product.price -= 1
         })
+
+      // Commit the mutation
+      //this.$store.commit('reducePrice')
       }
     }
   }
